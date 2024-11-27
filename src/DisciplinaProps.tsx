@@ -1,14 +1,12 @@
 import React from 'react'
 
-
 type caculo1Props = {
   codigo: string,
   nome: string,
   horario: number
-
 }
 
-export default function Calculo1({ codigo, nome }: caculo1Props) {
+export default function DisciplinaProps({ codigo, nome }: caculo1Props) {
 
   return (
 
